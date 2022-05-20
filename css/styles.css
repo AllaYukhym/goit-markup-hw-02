@@ -1,0 +1,217 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #2f303a;
+  --btn-color: #f5f4fa;
+  --white-color: #ffffff;
+  --mail-tel-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background: var(--white-color);
+}
+/* класы утилиты */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* -----------------------Header----------------------- */
+/* -----------------------Logo----------------------- */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.logo span {
+  color: var(--accent-color);
+}
+
+.header .link:hover,
+.header .link:focus {
+  color: var(--accent-color);
+}
+
+/* ----------------------Navigation-------------------------- */
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+.site-nav .mail,
+.site-nav .tel {
+  color: var(--primary-text-color);
+}
+
+/* ------------------------Hero------------------------------ */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background: var(--background-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+  background: var(--btn-color);
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
+}
+
+/* --------------------------Benefits------------------------------ */
+.title-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features .title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+/* --------------------------Directions----------------------------- */
+.directions .title,
+.team .title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* -----------------------------Team---------------------------------- */
+.team {
+  background: var(--btn-color);
+}
+
+.foto {
+  background: var(--white-color);
+}
+
+.team .name {
+  font-weight: 500;
+  color: var(--secondary-text-color);
+}
+
+.team .position,
+.team .name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ------------------------------Footer-------------------------------------- */
+.footer {
+  background: var(--background-color);
+}
+.footer .logo {
+  color: var(--white-color);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
+.footer .adress,
+.footer .mail,
+.footer .tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer .adress {
+  color: var(--white-color);
+}
+
+.footer .mail,
+.footer .tel {
+  color: var(--mail-tel-color);
+}
+
+/* ---------------------Gallery of works-------------------------- */
+/* ------------------------Filtr-------------------- */
+.gallery .btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  background: var(--btn-color);
+  cursor: pointer;
+}
+
+.gallery .btn:hover,
+.gallery .btn:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
+}
+
+/* ------------------------Exampels-------------------- */
+.examples .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.examples .item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
